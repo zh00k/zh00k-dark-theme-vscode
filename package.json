@@ -1,0 +1,30 @@
+{
+  "name": "zh00k-dark",
+  "displayName": "zh00k dark",
+  "description": "Minimal dark theme matching a Linux rice, ported from a Firefox theme + Mountain Home vim colors.",
+  "version": "1.0.0",
+  "publisher": "zh00k",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zh00k/zh00k-dark-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zh00k/zh00k-dark-theme/issues"
+  },
+  "homepage": "https://github.com/zh00k/zh00k-dark-theme#readme",
+  "keywords": ["theme", "color-theme", "dark theme", "dark"],
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "zh00k Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zh00k-dark-color-theme.json"
+      }
+    ]
+  }
+}
