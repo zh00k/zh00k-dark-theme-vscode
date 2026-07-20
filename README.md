@@ -12,9 +12,9 @@ A minimal dark VS Code theme ported from zh00k's Linux rice:
 ### From the Marketplace
 
 1. Open the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`).
-2. Search for **zh00k Dark**.
+2. Search for **zh00k dark**.
 3. Click **Install**.
-4. Open the Command Palette → `Preferences: Color Theme` → select **zh00k Dark**.
+4. Open the Command Palette → `Preferences: Color Theme` → select **zh00k dark**.
 
 ### Manual installation
 
@@ -23,12 +23,3 @@ A minimal dark VS Code theme ported from zh00k's Linux rice:
    - Windows: `%USERPROFILE%\.vscode\extensions\zh00k-dark-theme`
 2. Restart VS Code.
 3. Open the Command Palette → `Preferences: Color Theme` → select **zh00k dark**.
-
-## Building from source
-
-```bash
-npm install -g @vscode/vsce
-vsce package
-```
-
-This produces a `.vsix` file you can install via `Extensions: Install from VSIX...` in the Command Palette.
