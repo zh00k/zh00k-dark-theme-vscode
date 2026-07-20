@@ -5,6 +5,8 @@ A minimal dark VS Code theme ported from zh00k's Linux rice:
 - **UI chrome** (sidebar, tabs, status bar, panels, inputs) pulled from the `zh00k-dark` Firefox theme.
 - **Syntax colors** pulled from the "Mountain Home" palette used in zh00k's `_vimrc` (green for keywords/functions, muted mauve for strings/exceptions, tan for constants, grey comments).
 
+![zh00k dark screenshot](screenshots/zh00k-dark-vscode-theme-screenshot.png)
+
 ## Installation
 
 ### From the Marketplace
@@ -30,7 +32,3 @@ vsce package
 ```
 
 This produces a `.vsix` file you can install via `Extensions: Install from VSIX...` in the Command Palette.
-
-## License
-
-[MIT](LICENSE)
